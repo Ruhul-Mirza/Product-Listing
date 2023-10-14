@@ -60,6 +60,7 @@ body{
 }
 
 @media screen and (max-width:768px) {
+    bodu
     .col-sm-8{
         max-width: 100%;
         display: block;
@@ -148,7 +149,6 @@ body{
   /* contact */
 
   .contact-section {
-    background-color: red;
     width: 100%;
     padding: 40px;
 }
