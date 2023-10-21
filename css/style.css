@@ -9,6 +9,7 @@ body{
 .navbar-toggler-icon {
     color: #2e1f1f;
 }
+
 .navbar-toggler{
     border-color: #2e1f1f;
 }
@@ -35,6 +36,11 @@ body{
 .brand-name{
     color: #2e1f1f;
 }
+
+.scrollspy-example{
+    width: 100vw !important;
+}
+
 /* home */
 #home{
     background: #e4c9bf;
@@ -62,7 +68,7 @@ body{
 @media screen and (max-width:768px) {
     bodu
     .col-sm-8{
-        max-width: 100%;
+        width: 100% !important;
         display: block;
         margin: auto;
         margin-bottom: 20px;
@@ -82,7 +88,7 @@ body{
         margin: 0px 8px 8px 8px;
     }
     .col-sm-8{
-        max-width: 100%;
+        width: 100% !important;
     }
     #home {
         padding: 3rem 0 !important;
