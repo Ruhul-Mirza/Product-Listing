@@ -66,7 +66,7 @@ body{
 }
 
 @media screen and (max-width:768px) {
-    bodu
+    
     .col-sm-8{
         width: 100% !important;
         display: block;
@@ -217,4 +217,7 @@ body{
 }
 #about #contact .footer{
     width: 100vw !important;
+}
+.main{
+    overflow-x: hidden;
 }
